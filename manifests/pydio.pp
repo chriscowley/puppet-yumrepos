@@ -1,5 +1,5 @@
 class yumrepos::pydio {
-  yumrepo { "Pydio":
+  yumrepo { "pydio-stable":
     baseurl => "http://dl.ajaxplorer.info/repos/el${::os_maj_version}/pydio-stable",
     enabled => 1,
     gpgcheck => 1,
