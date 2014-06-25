@@ -1,0 +1,38 @@
+{
+  "name": "chriscowley-yumrepos",
+  "version": "0.0.2",
+  "source": "https://github.com/chriscowley/puppet-yumrepos",
+  "author": "Chris Cowley",
+  "license": "Apache License, Version 2.0",
+  "summary": "Yum Repos Module",
+  "description": "Installs and configures common Yum repositories in EL",
+  "project_page": "https://github.com/chriscowley/puppet-yumrepos",
+  "dependencies": [
+
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+    "LICENSE": "d32239bcb673463ab874e80d47fae504",
+    "Modulefile": "7b4adecd9adcf4741eaf7d8f2d5d036f",
+    "README.md": "7aa916a34ba962c9e0070b2bc4312db2",
+    "files/RPM-GPG-KEY-ChrisCowley": "01b2dc8c3a0359d18d8cbfd048c24bf0",
+    "files/RPM-GPG-KEY-EPEL-6": "b3956578dbc4a117ba474ef92b1c8c13",
+    "files/RPM-GPG-KEY-puppetlabs": "339014f9b0517552c232501438f40b3d",
+    "files/RPM-GPG-KEY-spacewalk-2012": "586b79b66ac3b5b0f4671de8ea0ccab2",
+    "lib/facter/os_maj_version.rb": "6b7f5959f1c2f21b358965a4549331d5",
+    "manifests/chriscowley.pp": "4956e92ccc726c11695c0d992bc05b0d",
+    "manifests/cloudera.pp": "fc4c28e94e4ad23cd0ae838a7fd31f67",
+    "manifests/elasticsearch.pp": "44666d023d1e3a564e39b8cddc8c16ba",
+    "manifests/epel.pp": "898b2191a92d342046a18c02aa534a23",
+    "manifests/gluster.pp": "1bc46d8a25f0cd57ee6160c7988a2b67",
+    "manifests/init.pp": "27b6c1799692f90c729b1b413abc38c4",
+    "manifests/mirror.pp": "04def0c84440f8eaf35efab14963fef4",
+    "manifests/puppetlabs.pp": "7818d3d893adb0f8c8173bfef8511c07",
+    "manifests/pydio.pp": "0d9f665da6463c876f45e96baedaf9f6",
+    "manifests/rpm_gpg_key.pp": "5077491cac9edd07e6169eb74c8b2532",
+    "manifests/spacewalk.pp": "aec21364571a025e6e8a69534550ebef"
+  }
+}
+
