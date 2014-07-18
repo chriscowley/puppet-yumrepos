@@ -1,4 +1,4 @@
-class yumrepos::chriscowley {
+class yumrepos::remi {
   yumrepo { "remi":
     mirrorlist => "http://rpms.famillecollet.com/enterprise/${::os_maj_version}/remi/mirror",
     descr    => "Les RPM de remi pour Enterprise Linux 6 - ${::architecture}",
