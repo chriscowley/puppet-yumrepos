@@ -1,6 +1,6 @@
 class yumrepos::epel {
   yumrepo { "epel":
-    mirrorlist     => "https://mirrors.fedoraproject.org/metalink?repo=epel-6&arch=${::architecture}",
+    mirrorlist     => "https://mirrors.fedoraproject.org/metalink?repo=epel-${::os_maj_version}&arch=${::architecture}",
     baseurl        => "absent",
     failovermethod => "priority",
     enabled        => 1,
