@@ -1,4 +1,6 @@
-class yumrepos {
+class yumrepos (
+    $centos_baseurl = $yumrepos::params::centos_baseurl,
+) {
   if $osfamily == 'RedHat' {
     include yumrepos::epel
     include yumrepos::puppetlabs

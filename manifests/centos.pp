@@ -1,4 +1,5 @@
 class yumrepos::centos {
+  $centos_baseurl = $yumrepos::centos_baseurl
   yumrepo { "base":
     baseurl  => "${::centos_base_url}/${::os_maj_version}/os/${::architecture}",
     descr    => "CentOS-${::os_maj_version} - Base",
